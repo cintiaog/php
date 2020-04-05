@@ -1,0 +1,122 @@
+*{margin:0; padding:0;}
+
+html{
+    height: 100%;
+    background: linear-gradient(rgba(38, 107, 128, 0.9), rgba(52, 162, 177, 0.9));
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario{
+    width: 100%;
+    text-align:center;
+    position:relative;
+    padding:5%;
+
+}
+
+.formulario fieldset{
+    
+    background: white;
+    border:0 none;
+    border-radius: 5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    box-shadow: 0 0 15px 1px rgba(0,0,0, 0.5);
+    padding:50px 30px;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.formulario h2{
+    font-size:22px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.formulario h3{
+    font-size:18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+}
+
+.formulario p{
+    font-size:16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin: 10px 0;
+}
+
+.formulario label{
+    font-size:16px;
+    color: rgba(38,128,101,0.9);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    margin: 10px 0;
+    font-weight: 550;
+
+
+}
+.formulario input{
+    padding:10px;
+    border: 1px sold rgba(38, 128,101,0.9);
+    border-radius:4px;
+    -moz-border-radius:4px;
+    -webkit-border-radius:4px;
+    outline:none;
+    box-sizing: border-box;
+    width: 100%;
+    font-size:14px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#090;
+    margin-bottom:10px;   
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;
+    
+}
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+
+}
+
+ 
+
+.formulario input.enviar{
+    width:100px;
+    background:rgba(38, 107, 128, 0.9);
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    left: 40% ;
+}
+.formulario-submit input.next{
+    width:100px;
+    background-color: white;
+    color:rgba(38,128,101,0.9);
+    border-radius:50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    float:right;
+
+}
+
+.formulario input.enviar:hover{
+    background: rgba(52, 162, 177, 0.9);
+    cursor: pointer;
+}
+
+.formulario-submit input.next:hover{    
+    background: rgba(224,224,224,0.2);
+}
+
